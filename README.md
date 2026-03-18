@@ -1,18 +1,49 @@
-# React + Vite
+# UchitPromo - Premium Influencer Marketplace 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+UchitPromo is a high-end, SaaS-style marketplace that connects elite brands with top-tier verified influencers. Built with the MERN stack, it features a premium dark UI, real-time analytics, and a seamless booking workflow.
 
-Currently, two official plugins are available:
+## ✨ Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **💎 Premium UI/UX**: SaaS-style dark theme with glassmorphism and smooth animations.
+- **📊 Interactive Dashboards**: 
+  - **Brand**: Manage campaigns, track spending, and initiate payments.
+  - **Influencer**: Accept/Reject requests and track earnings.
+  - **Admin**: Platform-wide control, user management, and system stats.
+- **🛒 Dynamic Marketplace**: Advanced filtering by niche, platform, price, and rating.
+- **🛡️ Secure Workflow**: Integrated booking system with status management (Pending → Approved → Paid).
+- **🔒 Authentication**: Role-based access control (RBAC) for Brands, Influencers, and Admins.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React (Vite), Tailwind CSS, Lucide Icons, Framer Motion.
+- **Backend**: Node.js, Express.js.
+- **Database**: MongoDB (Mongoose).
+- **State Management**: React Context API.
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# my-project" 
-"# my-project" 
+### 1. Clone the repository
+```bash
+git clone https://github.com/YOUR_USERNAME/uchit-promo.git
+```
+
+### 2. Setup Backend
+```bash
+cd backend
+npm install
+# Create a .env file with MONGO_URI, JWT_SECRET, and PORT
+npm start
+```
+
+### 3. Setup Frontend
+```bash
+cd ..
+npm install
+npm run dev
+```
+
+## 📸 Screenshots
+*(Add your screenshots here after hosting or in GitHub)*
+
+## 📄 License
+MIT License
